@@ -1,0 +1,19 @@
+{
+  "name": "hatena-ikku",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/masawada/Hatena-Ikku.git"
+  },
+  "author": "Masayoshi Wada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masawada/Hatena-Ikku/issues"
+  },
+  "homepage": "https://github.com/masawada/Hatena-Ikku#readme"
+}
