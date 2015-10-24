@@ -1,0 +1,34 @@
+{
+  "name": "Hatena Ikku",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "",
+  "content_scripts": [{
+    "matches": [
+      "http://*.hatenablog.com/*",
+      "http://*.hatenablog.jp/*",
+      "http://*.hateblo.jp/*",
+      "http://*.hatenadiary.com/*",
+      "http://*.hatenadiary.jp/*"
+    ],
+    "exclude_globs": [
+      "node_modules"
+    ],
+    "js": ["js/boot.js"]
+  }],
+  "web_accessible_resources": [
+    "dict/base.dat.gz",
+    "dict/cc.dat.gz",
+    "dict/check.dat.gz",
+    "dict/tid.dat.gz",
+    "dict/tid_map.dat.gz",
+    "dict/tid_pos.dat.gz",
+    "dict/unk.dat.gz",
+    "dict/unk_char.dat.gz",
+    "dict/unk_compat.dat.gz",
+    "dict/unk_invoke.dat.gz",
+    "dict/unk_map.dat.gz",
+    "dict/unk_pos.dat.gz",
+    "lib/highlight.js"
+  ]
+}
