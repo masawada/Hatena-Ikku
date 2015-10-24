@@ -5,7 +5,12 @@
   "dependencies": {
     "gulp": "^3.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/masawada/Hatena-Ikku.git"
